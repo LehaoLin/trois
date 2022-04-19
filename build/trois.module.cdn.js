@@ -7,7 +7,7 @@ import { TextGeometry } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm
 import { FontLoader } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/loaders/FontLoader.js';
 import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/loaders/GLTFLoader.js';
 import { FBXLoader } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/loaders/FBXLoader.js';
-import { VoxelLoader } from 'three-voxel-loader';
+import VoxelLoader from 'three-voxel-loader';
 import { EffectComposer as EffectComposer$1 } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/postprocessing/EffectComposer.js';
 import { RenderPass as RenderPass$1 } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/postprocessing/RenderPass.js';
 import { BokehPass as BokehPass$1 } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/postprocessing/BokehPass.js';

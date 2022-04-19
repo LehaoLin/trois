@@ -11,7 +11,7 @@ var TextGeometry_js = require('three/examples/jsm/geometries/TextGeometry.js');
 var FontLoader_js = require('three/examples/jsm/loaders/FontLoader.js');
 var GLTFLoader_js = require('three/examples/jsm/loaders/GLTFLoader.js');
 var FBXLoader_js = require('three/examples/jsm/loaders/FBXLoader.js');
-var threeVoxelLoader = require('three-voxel-loader');
+var VoxelLoader = require('three-voxel-loader');
 var EffectComposer_js = require('three/examples/jsm/postprocessing/EffectComposer.js');
 var RenderPass_js = require('three/examples/jsm/postprocessing/RenderPass.js');
 var BokehPass_js = require('three/examples/jsm/postprocessing/BokehPass.js');
@@ -22,6 +22,10 @@ var HalftonePass_js = require('three/examples/jsm/postprocessing/HalftonePass.js
 var SMAAPass_js = require('three/examples/jsm/postprocessing/SMAAPass.js');
 var SSAOPass_js = require('three/examples/jsm/postprocessing/SSAOPass.js');
 var UnrealBloomPass_js = require('three/examples/jsm/postprocessing/UnrealBloomPass.js');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var VoxelLoader__default = /*#__PURE__*/_interopDefaultLegacy(VoxelLoader);
 
 function applyObjectProps(dst, options, setter) {
   if (options instanceof Object) {
@@ -2282,7 +2286,7 @@ var FBX = vue.defineComponent({
 var Vox = vue.defineComponent({
   extends: Model,
   created() {
-    const loader = new threeVoxelLoader.VoxelLoader();
+    const loader = new VoxelLoader__default["default"]();
     this.$emit("before-load", loader);
     loader.load(this.src, (vox) => {
       this.onLoad(vox);

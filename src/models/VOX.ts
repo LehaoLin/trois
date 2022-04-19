@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue'
 import { VOXLoader, VOXMesh } from 'three/examples/jsm/loaders/VOXLoader.js'
 import Model from './Model'
-import {VoxelLoader} from 'three-voxel-loader'
+import VoxelLoader from 'three-voxel-loader'
 
 export default defineComponent({
   extends: Model,

@@ -29,7 +29,7 @@
     "rollup-plugin-esbuild": "^4.1.0",
     "stats.js": "0.17.0",
     "three": "^0.138.3",
-    "three-voxel-loader": "^1.2.2",
+    "three-voxel-loader": "LehaoLin/three-voxel-loader",
     "typescript": "^4.1.5",
     "vite": "^2.6.13",
     "vue": "^3.2.20",

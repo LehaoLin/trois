@@ -7,7 +7,7 @@ import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
-import { VoxelLoader } from 'three-voxel-loader';
+import VoxelLoader from 'three-voxel-loader';
 import { EffectComposer as EffectComposer$1 } from 'three/examples/jsm/postprocessing/EffectComposer.js';
 import { RenderPass as RenderPass$1 } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { BokehPass as BokehPass$1 } from 'three/examples/jsm/postprocessing/BokehPass.js';
