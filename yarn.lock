@@ -2161,7 +2161,7 @@ text-table@^0.2.0:
 
 three-voxel-loader@LehaoLin/three-voxel-loader:
   version "1.2.2"
-  resolved "https://codeload.github.com/LehaoLin/three-voxel-loader/tar.gz/ce4abbfae3c7afbd5120cf795587af8731e4f8f2"
+  resolved "https://codeload.github.com/LehaoLin/three-voxel-loader/tar.gz/ca6fe7ebbe465c2dbd1bec00824f5196d4ef4ba9"
   dependencies:
     "@sh-dave/format-vox" "^0.1.5"
     auto-bind "^4.0.0"
