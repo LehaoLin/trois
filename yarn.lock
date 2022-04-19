@@ -130,6 +130,11 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sh-dave/format-vox@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.npmmirror.com/@sh-dave/format-vox/-/format-vox-0.1.5.tgz#1f627a946e80786070fe4bfe6ad6980411921d38"
+  integrity sha512-RvYyRfPNzJ+qfxzXnHI3HgVmiaqOiXNb/vmKjxthuhYXt+17GM9pTiU/6L+kTKylIKZGVi2xnPtL91BOl5Ty8Q==
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.npmmirror.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -507,6 +512,11 @@ assert-never@^1.2.1:
   resolved "https://registry.npmmirror.com/assert-never/-/assert-never-1.2.1.tgz#11f0e363bf146205fb08193b5c7b90f4d1cf44fe"
   integrity sha512-TaTivMB6pYI1kXwrFlEhLeGfOqoDNdTxjCdwRfFFkEA30Eu+k48W34nlok2EYWJfFFzqaEmichdNM7th6M5HNw==
 
+auto-bind@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/auto-bind/-/auto-bind-4.0.0.tgz#e3589fc6c2da8f7ca43ba9f84fa52a744fc997fb"
+  integrity sha512-Hdw8qdNiqdJ8LqT0iK0sVzkFbzg6fhnQqqfWhBDxcHZvU75+B+ayzTy8x+k5Ix0Y92XOhOUlx74ps+bA6BeYMQ==
+
 babel-walk@3.0.0-canary-5:
   version "3.0.0-canary-5"
   resolved "https://registry.npmmirror.com/babel-walk/-/babel-walk-3.0.0-canary-5.tgz#f66ecd7298357aee44955f235a6ef54219104b11"
@@ -518,6 +528,11 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+binvox@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/binvox/-/binvox-1.1.0.tgz#19cadfd1bbc03b8a6d44634f8d47f1e8f96709c3"
+  integrity sha512-mlwSOZBJa0TiqdkG5I5/BLdDALyFwMK+kckwLmjrWYUL77fZZP/+N37IDZeH9fYvS+XHORbUku0Y6KjwSDn5vA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -1530,6 +1545,11 @@ isexe@^2.0.0:
   resolved "https://registry.npmmirror.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+iterator-result@1.x.x, iterator-result@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/iterator-result/-/iterator-result-1.0.0.tgz#728d662bd578b3c35ec297b599e1e5937657cc5b"
+  integrity sha512-Zqg84fiN3tF7APhyqkHs9t0bYXpIL1zRs4hslexxfmgvDTTDFIUa501H+2KgTWjH0R4ifrWc5dRkfqSrXQm37Q==
+
 joycon@^3.0.1:
   version "3.1.1"
   resolved "https://registry.npmmirror.com/joycon/-/joycon-3.1.1.tgz#bce8596d6ae808f8b68168f5fc69280996894f03"
@@ -1633,6 +1653,11 @@ magic-string@^0.26.1:
   integrity sha512-ndThHmvgtieXe8J/VGPjG+Apu7v7ItcD5mhEIvOscWjPF/ccOiLxHaSuCAS2G+3x4GKsAbT8u7zdyamupui8Tg==
   dependencies:
     sourcemap-codec "^1.4.8"
+
+"math-ds@>= 1.0.0 < 2.0.0":
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/math-ds/-/math-ds-1.2.1.tgz#e85cbe55178f1bb77256b792b6abfe9576f15c38"
+  integrity sha512-Fzf0G2+h7d1DqWtQDw3QLmx4R5Uat4Lj3x0iRV4fLyuUH94pODq6Y2UOqSFN0aAU+mQHESBPGbcCyaAXDaYV+A==
 
 memory-fs@^0.2.0:
   version "0.2.0"
@@ -2060,6 +2085,13 @@ sourcemap-codec@^1.4.8:
   resolved "https://registry.npmmirror.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
+sparse-octree@^6.0.2:
+  version "6.1.0"
+  resolved "https://registry.npmmirror.com/sparse-octree/-/sparse-octree-6.1.0.tgz#af3ac513bc81cbc2816142c098abd2d053bd8535"
+  integrity sha512-eHKbyZGRsqnuL92dAOSrDcQQhlm3q2B82cLLHJfUD8m6MbELjgCoyualkZnq5jYrLCf9M38cLo17UyW7TLh0Rg==
+  dependencies:
+    iterator-result "1.x.x"
+
 stats.js@0.17.0:
   version "0.17.0"
   resolved "https://registry.npmmirror.com/stats.js/-/stats.js-0.17.0.tgz#b1c3dc46d94498b578b7fd3985b81ace7131cc7d"
@@ -2126,6 +2158,18 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmmirror.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
+
+three-voxel-loader@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.npmmirror.com/three-voxel-loader/-/three-voxel-loader-1.2.2.tgz#20483403bafabd1d24d6c4a3c0e4fd07949077f6"
+  integrity sha512-04ogei+CIHBSTzR0A0cbxBo4wJkwZMFoo86CweKm1m+skjV2VkGFc399Nybf7uv6Fti5lY6tkDU3rl237xwlpQ==
+  dependencies:
+    "@sh-dave/format-vox" "^0.1.5"
+    auto-bind "^4.0.0"
+    binvox "^1.0.2"
+    iterator-result "^1.0.0"
+    math-ds ">= 1.0.0 < 2.0.0"
+    sparse-octree "^6.0.2"
 
 three@^0.138.3:
   version "0.138.3"

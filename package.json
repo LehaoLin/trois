@@ -33,7 +33,8 @@
     "vite": "^2.6.13",
     "vue": "^3.2.20",
     "vue-eslint-parser": "^8.0.1",
-    "vue-tsc": "^0.31.4"
+    "vue-tsc": "^0.31.4",
+    "three-voxel-loader": "^1.2.2"
   },
   "main": "build/trois.js",
   "module": "build/trois.module.js",
