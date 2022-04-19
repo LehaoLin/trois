@@ -2280,7 +2280,7 @@ var Vox = defineComponent({
   created() {
     const loader = new VoxelLoader();
     this.$emit("before-load", loader);
-    loader.loadFile(this.src, (vox) => {
+    loader.load(this.src, (vox) => {
       this.onLoad(vox);
       this.initObject3D(vox);
     }, this.onProgress, this.onError);

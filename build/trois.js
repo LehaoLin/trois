@@ -2288,7 +2288,7 @@ var Vox = vue.defineComponent({
   created() {
     const loader = new VoxelLoader__default["default"]();
     this.$emit("before-load", loader);
-    loader.loadFile(this.src, (vox) => {
+    loader.load(this.src, (vox) => {
       this.onLoad(vox);
       this.initObject3D(vox);
     }, this.onProgress, this.onError);
